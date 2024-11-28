@@ -3,7 +3,7 @@ name: Deploy Next Application
 on: 
   push: 
     branches: 
-      -master
+      -prod
 jobs:
   build: 
     runs-on: ubuntu-latest
